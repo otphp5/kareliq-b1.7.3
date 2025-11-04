@@ -1,6 +1,3 @@
-# THIS IS A BETA 1.6.6 CLIENT!!
-To use this client on b1.7.3 you need to use [this](https://www.mediafire.com/file/74s6333uskck191/b1.7.3-mcp.jar/file) jar.
-
 ## How to build
 1. Use `git clone https://github.com/realfreehij/kareliq.git` in command prompt
 2. Go to project root directory and use `gradlew build`
