@@ -68,7 +68,7 @@ public class MethodMappings {
                 "getBlockId", "a");
         add(ClassMappings.get("BlockFluid"), "getCollisionBoundingBoxFromPool",
                 "(L" + ClassMappings.get("World") + ";III)L" + ClassMappings.get("AxisAlignedBB") + ";",
-                "getCollisionBoundingBoxFromPool", "d");
+                "getCollisionBoundingBoxFromPool", "e");
         add(ClassMappings.get("AxisAlignedBB"), "getBoundingBoxFromPool",
                 "(DDDDDD)L" + ClassMappings.get("AxisAlignedBB") + ";",
                 "getBoundingBoxFromPool", "b");
@@ -131,13 +131,13 @@ public class MethodMappings {
                 "getScaledHeight", "b");
         add(ClassMappings.get("Block"), "getCollisionBoundingBoxFromPool",
                 "(L" + ClassMappings.get("World") + ";III)L" + ClassMappings.get("AxisAlignedBB") + ";",
-                "getCollisionBoundingBoxFromPool", "d");
+                "getCollisionBoundingBoxFromPool", "e");
         add(ClassMappings.get("Entity"), "isEntityInsideOpaqueBlock", "()Z",
                 "isEntityInsideOpaqueBlock", "L");
         add(ClassMappings.get("EntityPlayerSP"), "pushOutOfBlocks", "(DDD)Z",
                 "func_28014_c", "pushOutOfBlocks", "c");
         add(ClassMappings.get("Entity"), "handleWaterMovement", "()Z",
-                "handleWaterMovement", "j_");
+                "handleWaterMovement", "k_");
         add(ClassMappings.get("EntityClientPlayerMP"), "onUpdateMP", "()V",
                 "func_4056_N", "am");
         add(ClassMappings.get("Entity"), "setPosition", "(DDD)V",

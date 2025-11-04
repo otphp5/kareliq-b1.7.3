@@ -9,79 +9,79 @@ public class ClassMappings {
 
     public static void initRefmap() {
         add("MovementInputFromOptions",
-                "net/minecraft/unmapped/C_5637855", "net/minecraft/src/MovementInputFromOptions", "ln");
+                "net/minecraft/unmapped/C_5637855", "net/minecraft/src/MovementInputFromOptions", "lr");
         add("GuiIngame",
-                "net/minecraft/unmapped/C_8651652", "net/minecraft/src/GuiIngame", "uk");
+                "net/minecraft/unmapped/C_8651652", "net/minecraft/src/GuiIngame", "uq");
         add("FontRenderer",
-                "net/minecraft/unmapped/C_3831727", "net/minecraft/src/FontRenderer", "se");
+                "net/minecraft/unmapped/C_3831727", "net/minecraft/src/FontRenderer", "sj");
         add("EntityPlayer",
-                "net/minecraft/unmapped/C_9590849", "net/minecraft/src/EntityPlayer", "gq");
+                "net/minecraft/unmapped/C_9590849", "net/minecraft/src/EntityPlayer", "gs");
         add("GameSettings",
-                "net/minecraft/src/GameSettings", "kr");
+                "net/minecraft/src/GameSettings", "kv");
         add("KeyBinding",
-                "net/minecraft/src/KeyBinding", "px");
+                "net/minecraft/src/KeyBinding", "qb");
         add("GuiChat",
-                "net/minecraft/src/GuiChat", "ga");
+                "net/minecraft/src/GuiChat", "gc");
         add("GuiControls",
-                "net/minecraft/src/GuiControls", "uj");
+                "net/minecraft/src/GuiControls", "up");
         add("GuiScreen",
-                "net/minecraft/src/GuiScreen", "cy");
+                "net/minecraft/src/GuiScreen", "da");
         add("ScaledResolution",
-                "net/minecraft/src/ScaledResolution", "qm");
+                "net/minecraft/src/ScaledResolution", "qq");
         add("Gui",
-                "net/minecraft/src/Gui", "tw");
+                "net/minecraft/src/Gui", "ub");
         add("IBlockAccess",
-                "net/minecraft/src/IBlockAccess", "xg");
+                "net/minecraft/src/IBlockAccess", "xp");
         add("Block",
-                "net/minecraft/src/Block", "un");
+                "net/minecraft/src/Block", "uu");
         add("RenderGlobal",
-                "net/minecraft/src/RenderGlobal", "m");
+                "net/minecraft/src/RenderGlobal", "n");
         add("BlockFluid",
-                "net/minecraft/src/BlockFluid", "rk");
+                "net/minecraft/src/BlockFluid", "rp");
         add("World",
-                "net/minecraft/src/World", "fb");
+                "net/minecraft/src/World", "fd");
         add("MovementInput",
-                "net/minecraft/src/MovementInput", "ui");
+                "net/minecraft/src/MovementInput", "uo");
         add("EntityPlayerSP",
-                "net/minecraft/src/EntityPlayerSP", "da");
+                "net/minecraft/src/EntityPlayerSP", "dc");
         add("Entity",
-                "net/minecraft/src/Entity", "si");
+                "net/minecraft/src/Entity", "sn");
         add("EntityLiving",
-                "net/minecraft/src/EntityLiving", "lo");
+                "net/minecraft/src/EntityLiving", "ls");
         add("Packet10Flying",
-                "net/minecraft/src/Packet10Flying", "id");
+                "net/minecraft/src/Packet10Flying", "ig");
         add("Packet",
-                "net/minecraft/src/Packet", "ke");
+                "net/minecraft/src/Packet", "ki");
         add("AxisAlignedBB",
-                "net/minecraft/src/AxisAlignedBB", "eo");
+                "net/minecraft/src/AxisAlignedBB", "eq");
         add("PlayerController",
-                "net/minecraft/src/PlayerController", "nx");
+                "net/minecraft/src/PlayerController", "ob");
         add("EntityAnimal",
-                "net/minecraft/src/EntityAnimal", "bf");
+                "net/minecraft/src/EntityAnimal", "bg");
         add("EntityMob",
-                "net/minecraft/src/EntityMob", "gx");
+                "net/minecraft/src/EntityMob", "gz");
         add("NetClientHandler",
-                "net/minecraft/src/NetClientHandler", "mx");
+                "net/minecraft/src/NetClientHandler", "nb");
         add("Packet28EntityVelocity",
-                "net/minecraft/src/Packet28EntityVelocity", "gh");
+                "net/minecraft/src/Packet28EntityVelocity", "gj");
         add("PlayerControllerMP",
-                "net/minecraft/src/PlayerControllerMP", "xb");
+                "net/minecraft/src/PlayerControllerMP", "xk");
         add("GuiTextField",
-                "net/minecraft/src/GuiTextField", "rj");
+                "net/minecraft/src/GuiTextField", "ro");
         add("GuiMainMenu",
-                "net/minecraft/src/GuiMainMenu", "fs");
+                "net/minecraft/src/GuiMainMenu", "fu");
         add("GuiButton",
-                "net/minecraft/src/GuiButton", "ka");
+                "net/minecraft/src/GuiButton", "ke");
         add("RenderGlobal",
-                "net/minecraft/src/RenderGlobal", "m");
+                "net/minecraft/src/RenderGlobal", "n");
         add("Vec3D",
-                "net/minecraft/src/Vec3D", "br");
+                "net/minecraft/src/Vec3D", "bt");
         add("ICamera",
-                "net/minecraft/src/ICamera", "ye");
+                "net/minecraft/src/ICamera", "yn");
         add("Session",
-                "net/minecraft/src/Session", "gp");
+                "net/minecraft/src/Session", "gr");
         add("EntityClientPlayerMP",
-                "net/minecraft/src/EntityClientPlayerMP", "tf");
+                "net/minecraft/src/EntityClientPlayerMP", "tk");
     }
 
     private static void add(String reference, String... entries) {
